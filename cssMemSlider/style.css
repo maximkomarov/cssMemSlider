@@ -1,0 +1,15 @@
+.main-content {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
