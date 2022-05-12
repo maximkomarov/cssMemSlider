@@ -1,15 +1,60 @@
 .main-content {
     margin: 0 auto;
-    width: 50%;
+    width: 1100px;
+    overflow: hidden;
 }
 
 .responsive {
-    width: 100%;
     height: auto;
+}
+
+.slider {
+    display: flex;
+    height: 100%;
+    width: 39%;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    flex-direction: column;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     height: 10%;
+}
+
+.text {
+    display: flex;
+    white-space: pre;
+}
+
+.whitespace {
+    white-space: pre;
+}
+
+input{
+    display: none;
+}
+
+.controls{
+    display: flex;
+}
+
+#radio1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .s1 {
+    margin-left: -100%;
+}
+#radio2:checked ~ .controls {
+    margin-left: +77%;
+}
+
+#radio3:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .s1 {
+    margin-left: -75%;
 }
