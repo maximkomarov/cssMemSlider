@@ -40,21 +40,22 @@ input{
     display: flex;
 }
 
-#radio1:checked ~ .s1 {
+#radio1:checked ~ .sliderItem {
     margin-left: 0;
 }
 
-#radio2:checked ~ .s1 {
+#radio2:checked ~ .sliderItem {
     margin-left: -100%;
 }
+
 #radio2:checked ~ .controls {
     margin-left: +77%;
 }
 
-#radio3:checked ~ .s1 {
+#radio3:checked ~ .sliderItem {
     margin-left: -50%;
 }
 
-#radio4:checked ~ .s1 {
+#radio4:checked ~ .sliderItem {
     margin-left: -75%;
 }
